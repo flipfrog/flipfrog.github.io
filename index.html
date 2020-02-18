@@ -408,7 +408,7 @@
       for (let elm of skillStars) {
         const starCount = (elm.dataset.count - 0);
         const blankCount = Math.max(5 - starCount, 0);
-        elm.innerHTML = '<i class="fas fa-star"></i>'.repeat(starCount) + '<i class="far fa-star"></i>'.repeat(blankCount);
+        elm.innerHTML = '&nbsp;'+'<i class="fas fa-star"></i>'.repeat(starCount) + '<i class="far fa-star"></i>'.repeat(blankCount);
       }
     })();
   </script>
